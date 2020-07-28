@@ -1,0 +1,7 @@
+madison_example_one.hello:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\madison_example_one\Controller\HelloController::hello'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
